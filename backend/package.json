@@ -7,10 +7,13 @@
   "dependencies": {
     "@hono/node-server": "^1.14.1",
     "backend": "file:",
-    "hono": "^4.7.7"
+    "dotenv": "^16.5.0",
+    "hono": "^4.7.7",
+    "zod": "4.0.0-beta.20250420T053007"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "prettier": "^3.5.3",
     "tsx": "^4.7.1"
   }
 }
