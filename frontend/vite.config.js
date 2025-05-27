@@ -16,6 +16,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  experimental: {
+    enableNativePlugin: true,
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
